@@ -1,0 +1,34 @@
+[
+  {
+    "query": "weekly review",
+    "should_trigger": true
+  },
+  {
+    "query": "let's do the sunday review, I'm on the couch with 10 min",
+    "should_trigger": true
+  },
+  {
+    "query": "can you help me plan next week? last one was chaos",
+    "should_trigger": true
+  },
+  {
+    "query": "quick review tonight, skip the questions",
+    "should_trigger": true
+  },
+  {
+    "query": "Write my weekly status report for my manager: shipped login page, fixed 3 bugs",
+    "should_trigger": false
+  },
+  {
+    "query": "Review this pull request before standup: https://github.com/acme/api/pull/412",
+    "should_trigger": false
+  },
+  {
+    "query": "Give me a weekly meal plan for 2 people, vegetarian, under 30 minutes per dinner",
+    "should_trigger": false
+  },
+  {
+    "query": "What should go in a quarterly business review deck for our board?",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "query": "Robin, put dentist on thursday 3pm and tell me if that clashes with anything",
+    "should_trigger": true
+  },
+  {
+    "query": "can you go through my inbox from Lucius and make todos out of whatever he needs from me",
+    "should_trigger": true
+  },
+  {
+    "query": "add 'call the plumber' to my tasks for tomorrow morning pls",
+    "should_trigger": true
+  },
+  {
+    "query": "Draft a reply to Selina saying I can't make Friday drinks, suggest next week instead",
+    "should_trigger": true
+  },
+  {
+    "query": "hey robin what's on my plate tomorrow",
+    "should_trigger": true
+  },
+  {
+    "query": "Write a Python script that syncs my Google Calendar to a CSV file using the Calendar API",
+    "should_trigger": false
+  },
+  {
+    "query": "What's a good weekly planning template for a team of 6 engineers in Notion?",
+    "should_trigger": false
+  },
+  {
+    "query": "Who played Robin in The Dark Knight Rises? I keep forgetting",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain how Gmail's spam filter works under the hood",
+    "should_trigger": false
+  },
+  {
+    "query": "Turn this meeting transcript into a list of action items for the team wiki",
+    "should_trigger": false
+  }
+]

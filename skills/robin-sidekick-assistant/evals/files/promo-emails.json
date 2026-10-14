@@ -1,0 +1,95 @@
+{
+  "today": "2026-11-06",
+  "emails": [
+    {
+      "id": "p1",
+      "from": "Zalando <promo@zalando.example>",
+      "to": "alex@example.com",
+      "date": "2026-11-02T07:30:00+01:00",
+      "subject": "Zalando: up to 20% off this week",
+      "labels": [
+        "promotions"
+      ]
+    },
+    {
+      "id": "p2",
+      "from": "Zalando <promo@zalando.example>",
+      "to": "alex@example.com",
+      "date": "2026-11-03T07:30:00+01:00",
+      "subject": "Zalando: up to 30% off this week",
+      "labels": [
+        "promotions"
+      ]
+    },
+    {
+      "id": "p3",
+      "from": "Zalando <promo@zalando.example>",
+      "to": "alex@example.com",
+      "date": "2026-11-04T07:30:00+01:00",
+      "subject": "Zalando: up to 40% off this week",
+      "labels": [
+        "promotions"
+      ]
+    },
+    {
+      "id": "p4",
+      "from": "Zalando <promo@zalando.example>",
+      "to": "alex@example.com",
+      "date": "2026-11-05T07:30:00+01:00",
+      "subject": "Zalando: up to 50% off this week",
+      "labels": [
+        "promotions"
+      ]
+    },
+    {
+      "id": "p5",
+      "from": "Coolblue <promo@coolblue.example>",
+      "to": "alex@example.com",
+      "date": "2026-11-02T07:30:00+01:00",
+      "subject": "Coolblue: up to 20% off this week",
+      "labels": [
+        "promotions"
+      ]
+    },
+    {
+      "id": "p6",
+      "from": "Coolblue <promo@coolblue.example>",
+      "to": "alex@example.com",
+      "date": "2026-11-03T07:30:00+01:00",
+      "subject": "Coolblue: up to 30% off this week",
+      "labels": [
+        "promotions"
+      ]
+    },
+    {
+      "id": "p7",
+      "from": "KLM Deals <promo@klmdeals.example>",
+      "to": "alex@example.com",
+      "date": "2026-11-02T07:30:00+01:00",
+      "subject": "KLM Deals: up to 20% off this week",
+      "labels": [
+        "promotions"
+      ]
+    },
+    {
+      "id": "p8",
+      "from": "KLM Deals <promo@klmdeals.example>",
+      "to": "alex@example.com",
+      "date": "2026-11-03T07:30:00+01:00",
+      "subject": "KLM Deals: up to 30% off this week",
+      "labels": [
+        "promotions"
+      ]
+    },
+    {
+      "id": "p9",
+      "from": "Albert Heijn <promo@albertheijn.example>",
+      "to": "alex@example.com",
+      "date": "2026-11-02T07:30:00+01:00",
+      "subject": "Albert Heijn: up to 20% off this week",
+      "labels": [
+        "promotions"
+      ]
+    }
+  ]
+}

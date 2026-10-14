@@ -1,0 +1,16 @@
+{
+  "name": "robin-personal-ai-assistant",
+  "description": "Robin, the sidekick personal assistant skills.",
+  "owner": {
+    "name": "roobinw",
+    "url": "https://github.com/roobinw"
+  },
+  "plugins": [
+    {
+      "name": "robin",
+      "source": "./",
+      "description": "Tasks, calendar and email as Robin, with a weekly Load Meter, a guided weekly review and check-in reminders.",
+      "version": "2.0.0"
+    }
+  ]
+}

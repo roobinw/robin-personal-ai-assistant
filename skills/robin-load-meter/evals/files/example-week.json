@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "timezone": "Europe/Amsterdam",
+    "week_start": "monday",
+    "working_hours": {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "09:00", "end": "17:00"},
+    "evening_window": {"start": "19:00", "end": "23:00"},
+    "min_free_evenings": 3,
+    "green_below": 27,
+    "red_from": 33,
+    "ignored_calendar_items": ["Partner's gym"]
+  },
+  "week_of": "2026-10-12",
+  "mode": "upcoming",
+  "events": [
+    {"title": "Dinner with Sarah", "start": "2026-10-12T19:00:00+02:00", "end": "2026-10-12T21:00:00+02:00"},
+    {"title": "Dentist", "start": "2026-10-13T08:00:00+02:00", "end": "2026-10-13T09:30:00+02:00"},
+    {"title": "Team lunch", "start": "2026-10-13T12:00:00+02:00", "end": "2026-10-13T13:00:00+02:00"},
+    {"title": "Parents' evening at school", "start": "2026-10-13T19:30:00+02:00", "end": "2026-10-13T21:00:00+02:00"},
+    {"title": "Football training", "start": "2026-10-14T18:30:00+02:00", "end": "2026-10-14T20:00:00+02:00"},
+    {"title": "Call with mum", "start": "2026-10-14T19:00:00+02:00", "end": "2026-10-14T20:00:00+02:00"},
+    {"title": "Focus block: taxes", "start": "2026-10-15T17:00:00+02:00", "end": "2026-10-15T18:00:00+02:00"},
+    {"title": "Book club", "start": "2026-10-15T19:00:00+02:00", "end": "2026-10-15T22:00:00+02:00"},
+    {"title": "Partner's gym", "start": "2026-10-15T19:30:00+02:00", "end": "2026-10-15T22:30:00+02:00"},
+    {"title": "Office", "start": "2026-10-16", "end": "2026-10-17", "all_day": true, "event_type": "workingLocation"},
+    {"title": "Concert", "start": "2026-10-16T20:00:00+02:00", "end": "2026-10-16T23:30:00+02:00"},
+    {"title": "Moving help for Tom", "start": "2026-10-17T10:00:00+02:00", "end": "2026-10-17T18:00:00+02:00"},
+    {"title": "Birthday: Lisa", "start": "2026-10-17", "end": "2026-10-18", "all_day": true, "event_type": "birthday"},
+    {"title": "Neighbourhood drinks (maybe)", "start": "2026-10-17T19:00:00+02:00", "end": "2026-10-17T22:00:00+02:00", "transparency": "transparent"},
+    {"title": "Family visit", "start": "2026-10-18T14:00:00+02:00", "end": "2026-10-18T17:00:00+02:00"},
+    {"title": "Webinar: retirement planning", "start": "2026-10-18T19:00:00+02:00", "end": "2026-10-18T20:00:00+02:00", "response": "declined"}
+  ],
+  "tasks": [
+    {"title": "Pay rent", "due": "2026-10-12T00:00:00.000Z"},
+    {"title": "Order birthday present for Lisa", "due": "2026-10-12T00:00:00.000Z"},
+    {"title": "Call insurance about claim", "due": "2026-10-13T00:00:00.000Z"},
+    {"title": "Book flights for December", "due": "2026-10-13T00:00:00.000Z"},
+    {"title": "Return library books", "due": "2026-10-14T00:00:00.000Z"},
+    {"title": "Reply to Lucius about the report", "due": "2026-10-14T00:00:00.000Z"},
+    {"title": "Sarah (every 2 weeks)", "due": "2026-10-14T00:00:00.000Z"},
+    {"title": "File taxes", "due": "2026-10-15T00:00:00.000Z", "time_blocked": true},
+    {"title": "Buy paint for the hallway", "due": "2026-10-15T00:00:00.000Z"},
+    {"title": "Renew passport", "due": "2026-10-16T00:00:00.000Z"},
+    {"title": "Water the plants at Tom's", "due": "2026-10-16T00:00:00.000Z"},
+    {"title": "Grocery run", "due": "2026-10-17T00:00:00.000Z"},
+    {"title": "Clean the bathroom", "due": "2026-10-17T00:00:00.000Z"},
+    {"title": "Plan next week's meals", "due": "2026-10-18T00:00:00.000Z"},
+    {"title": "Start Weekly Review", "due": "2026-10-18T00:00:00.000Z"},
+    {"title": "Fix bike light"},
+    {"title": "Dentist follow-up", "due": "2026-10-21T00:00:00.000Z"}
+  ]
+}

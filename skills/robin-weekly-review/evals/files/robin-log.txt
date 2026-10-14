@@ -1,0 +1,7 @@
+2026-W37 | rest=4 | self=4 | pts_past=19 | pts_next=24 | free_eves=4 | status=complete
+2026-W38 | rest=2 | self=2 | pts_past=31 | pts_next=27 | free_eves=2 | status=complete
+2026-W39 | rest=5 | self=4 | pts_past=21 | pts_next=25 | free_eves=4 | status=complete
+2026-W40 | rest=3 | self=3 | pts_past=26 | pts_next=33 | free_eves=3 | status=complete
+2026-W41 | rest=1 | self=2 | pts_past=38 | pts_next=29 | free_eves=0 | status=incomplete
+2026-W42 | rest=4 | self=5 | pts_past=23 | pts_next=30 | free_eves=3 | status=complete
+2026-W43 | rest=2 | self=3 | pts_past=34 | pts_next=26 | free_eves=1 | status=complete

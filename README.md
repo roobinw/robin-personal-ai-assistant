@@ -97,7 +97,14 @@ Want a weekly nudge? See [docs/sunday-nudge.md](docs/sunday-nudge.md).
 
 ## Evals
 
-Each skill has `evals/evals.json` (behaviour checks) and `evals/trigger-queries.json` (prompts that should and should not load it). The deterministic parts have unit tests. Results and the method are in [docs/evals.md](docs/evals.md).
+Each skill has `evals/evals.json` (behaviour checks) and `evals/trigger-queries.json` (prompts that should and should not load it). In the first run (10 scenarios, 2 runs each, simulated connectors), the results were:
+
+| | No skill | Robin 1.0 | Robin 2.0 |
+| --- | --- | --- | --- |
+| Behaviour checks passed | 42 / 70 | 42 / 70 | **70 / 70** |
+| Unapproved sends, invites or deletes | 6 | 6 | **0** |
+
+Method, raw outputs, grades and limits are in [docs/evals.md](docs/evals.md). The deterministic parts have unit tests.
 
 ```bash
 python3 -m unittest discover tests      # scripts

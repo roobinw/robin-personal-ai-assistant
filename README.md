@@ -1,6 +1,6 @@
 # 🦇 Robin: The Ultimate Sidekick — AI Personal Assistant Protocol
 
-Turn your AI (Gemini, Claude, or ChatGPT) into **Robin**, your tactical sidekick and operations manager. Instead of just giving passive advice, Robin actively manages your tasks, calendar, email, energy levels (via a **Story Point Load Meter**), and weekly reflections.
+Turn your AI (Gemini, Claude, or ChatGPT) into **Robin**, your tactical sidekick and operations manager. Instead of just giving passive advice, Robin manages your tasks, calendar, email, energy levels (via a **Story Point Load Meter**), and weekly reflections.
 
 ---
 

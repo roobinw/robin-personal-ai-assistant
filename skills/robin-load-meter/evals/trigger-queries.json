@@ -1,0 +1,34 @@
+[
+  {
+    "query": "how busy is next week looking? i feel like i overbooked again",
+    "should_trigger": true
+  },
+  {
+    "query": "what's my load meter at after adding the concert on friday",
+    "should_trigger": true
+  },
+  {
+    "query": "story points for this week please, am I in the red?",
+    "should_trigger": true
+  },
+  {
+    "query": "Do I have enough free evenings left this week if I say yes to book club?",
+    "should_trigger": true
+  },
+  {
+    "query": "Estimate story points for this Jira ticket: migrate the auth service to OAuth 2.1",
+    "should_trigger": false
+  },
+  {
+    "query": "Calculate our sprint velocity from the last 5 sprints: 21, 34, 28, 30, 25",
+    "should_trigger": false
+  },
+  {
+    "query": "How many hours of meetings does the average manager have per week?",
+    "should_trigger": false
+  },
+  {
+    "query": "My CPU load is at 95%, how do I find which process is causing it?",
+    "should_trigger": false
+  }
+]

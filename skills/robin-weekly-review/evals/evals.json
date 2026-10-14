@@ -1,0 +1,29 @@
+{
+  "skill_name": "robin-weekly-review",
+  "evals": [
+    {
+      "id": 1,
+      "name": "first-question-only",
+      "prompt": "time for my weekly review",
+      "expected_output": "Starts the review and asks only reflection question (a), about rest on a 1-5 scale, then waits.",
+      "files": [],
+      "expectations": [
+        "Asks the rest question (a)",
+        "Does not ask question (b) or (c) in the same message",
+        "Makes no changes to calendar or tasks"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "calibration-suggestion",
+      "prompt": "Can you suggest better green and red thresholds from my log?",
+      "expected_output": "With seven logged weeks it suggests green under 21 and red from 34, and asks before updating the settings.",
+      "files": ["evals/files/robin-log.txt"],
+      "expectations": [
+        "Suggests green under 21",
+        "Suggests red from 34",
+        "Asks before changing the settings"
+      ]
+    }
+  ]
+}

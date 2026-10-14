@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install validators
+        run: pip install pyyaml skills-ref
+      - name: Validate skills (repo rules)
+        run: python3 tools/validate_skills.py
+      - name: Validate skills (Agent Skills reference validator)
+        run: for d in skills/*/; do agentskills validate "$d"; done
+      - name: Unit tests
+        run: python3 -m unittest discover tests -v
+      - name: Build ZIPs
+        run: python3 tools/build_zips.py

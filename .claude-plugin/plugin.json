@@ -1,0 +1,13 @@
+{
+  "name": "robin",
+  "version": "2.0.0",
+  "description": "Robin, a sidekick personal assistant: tasks, calendar and email, a weekly Load Meter in story points, a guided weekly review and check-in reminders.",
+  "author": {
+    "name": "roobinw",
+    "url": "https://github.com/roobinw"
+  },
+  "homepage": "https://github.com/roobinw/robin-personal-ai-assistant",
+  "repository": "https://github.com/roobinw/robin-personal-ai-assistant",
+  "license": "MIT",
+  "keywords": ["personal-assistant", "productivity", "calendar", "tasks", "weekly-review", "google-workspace"]
+}

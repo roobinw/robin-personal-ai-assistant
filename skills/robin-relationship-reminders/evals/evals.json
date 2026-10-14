@@ -1,0 +1,29 @@
+{
+  "skill_name": "robin-relationship-reminders",
+  "evals": [
+    {
+      "id": 1,
+      "name": "contact-earlier-in-the-week",
+      "prompt": "Had coffee with Barbara on Monday.",
+      "expected_output": "Today is Thursday 5 November 2026 and 'Barbara (every 3 weeks)' is due today. The contact date is Monday 2 November, so the next due date is 23 November. Robin updates the task in place and confirms in one line.",
+      "files": [],
+      "expectations": [
+        "Uses Monday 2 November 2026 as the contact date",
+        "Sets the next due date to 2026-11-23",
+        "Updates the existing task instead of creating a duplicate",
+        "Creates no calendar event"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "month-end-interval",
+      "prompt": "Called grandma last night.",
+      "expected_output": "Today is Wednesday 1 April 2026 and 'Grandma (every 1 month)' exists. The contact date is 31 March, so the next due date is 30 April 2026.",
+      "files": [],
+      "expectations": [
+        "Uses 31 March 2026 as the contact date",
+        "Sets the next due date to 2026-04-30"
+      ]
+    }
+  ]
+}

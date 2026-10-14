@@ -1,0 +1,19 @@
+{
+  "skill_name": "robin-load-meter",
+  "evals": [
+    {
+      "id": 1,
+      "name": "score-eval-week",
+      "prompt": "How busy is my week?",
+      "expected_output": "Today is Monday 2 November 2026. 24 points, green; 3 free evenings (Tue, Sat, Sun), meeting the target of 3; the 30-minute Thursday overlap between Choir rehearsal and Call with Barbara.",
+      "files": ["evals/files/eval-week.json"],
+      "expectations": [
+        "Total is 24 points",
+        "Band is green",
+        "Free evenings: 3, meeting the target",
+        "Mentions the Choir rehearsal / Call with Barbara overlap",
+        "Does not count Lunch with Selina, Partner's gym, the declined barbecue or the optional online course"
+      ]
+    }
+  ]
+}
